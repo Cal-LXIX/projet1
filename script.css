@@ -1,6 +1,7 @@
 body {
 background-color:white;
 color:rgb(5, 118, 204);
+
 }
 .container {
     
@@ -14,32 +15,41 @@ color:rgb(5, 118, 204);
 }
 
  
-
-
-
-p {
+.introduction{
     text-align: center;
     margin: 40%;
     
-    
-   
-
 }
 
 
-   
 
-h1{
+.MonPremierTitre{
     text-align: center;
     margin-top: 20%;
     font-family:cursive;
-    font-size:6em;
+    font-size:10em;
 }
 
 h2{
     margin-top: 30%;
     text-align: center;
-    font-size: 4em;
+    font-size: 20%;
     margin-bottom:20%;
     
+    
+}
+.box {
+
+    margin-top:10px;
+}
+
+
+.Paragraphe {
+    margin-top:20%;
+    font-size:;
+}
+
+.picture1 {
+
+    display:;
 }
