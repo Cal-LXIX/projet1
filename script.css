@@ -137,3 +137,17 @@ h2{
 		color: #777;
 	}
 }
+
+#Titre-principale {
+	font-family:cursive;
+	text-align: center;
+	margin-top: 30%;
+  color:rgb(45, 69, 204);
+  animation: clignote 2s linear infinite;
+}
+@keyframes clignote {  
+  40% { opacity: 0; }
+}
+
+
+
