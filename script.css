@@ -15,6 +15,20 @@ color:rgb(5, 118, 204);
        
      
 }
+.container{
+	display: flex;
+	padding: 10px;
+	margin-bottom: 10px;
+  }
+  .inline-container{
+	display: inline-flex;
+	padding: 10px;
+  }
+  
+  .bleu{background-color: #28B;}
+  .vert{background-color: #2B8;}
+  .jaune{background-color: #BB2;}
+  .rouge{background-color: #E24;}
 
  
 .introduction{
@@ -48,12 +62,12 @@ h2{
 
 .Paragraphe {
     margin-top:20%;
-    font-size:;
+    font-size:0px;
 }
 
 .picture1 {
 
-    display:;
+    display:0px;
 }
 
 @media (max-width: 1640px) {
