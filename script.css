@@ -1,3 +1,5 @@
+
+
 body {
 background-color:white;
 color:rgb(5, 118, 204);
@@ -56,88 +58,32 @@ h2{
     display:;
 }
 
-@media (max-width: 1640px) {
-	* {
-		box-sizing: border-box;
-	}
-	
-	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
 
-	body {
-		width: auto;
-		margin: 0;
-		padding: 0;
-	}
 	
-	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
-
-	img,
-	table,
-	td,
-	blockquote,
-	code,
-	pre,
-	textarea,
-	input,
-	iframe,
-	object,
-	embed,
-	video {
-		max-width: 100%;
-	}
+  
+}
+    
+.picture5 img {
+	width: 400px;
+	height: 100px;
 	
-	/* conserver le ratio des images */
-
-	img {
-		height: auto;
-	}
 	
-	/* gestion des mots longs */
-
-	textarea,
-	table,
-	td,
-	th,
-	code,
-	pre,
-	samp {
-		-webkit-hyphens: auto; /* césure propre */
-		-moz-hyphens: auto;
-		hyphens: auto;
-		word-wrap: break-word; /* passage à la ligne forcé */
-	}
-	
-	code,
-	pre,
-	samp {
-		white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
-	}
-	
-	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
-
-	.element1,
-	.element2 {
-		float: none;
-		width: auto;
-	}
-	
-	/* masquer les éléments superflus */
-
-	.hide_mobile {
-		display: none !important;
-	}
-	
-	/* Un message personnalisé */
-
-	body:before {
-		content: "Version mobile du site";
-		display: block;
-		text-align: center;
-		font-style: italic;
-		color: #777;
-	}
+}
+.Taj{
+	position: relative;
+	right:20px;
+	top:50px;
+	width: 100%;
+		
+}
+.Description3{
+text-align: center;
+margin-top:40px;
 }
 
+
+	
+	
 #Titre-principale {
 	font-family:cursive;
 	text-align: center;
@@ -150,4 +96,85 @@ h2{
 }
 
 
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+        font-size: 22px;
+        text-shadow:#ff006e 2.5px 2.5px 0,
+#8338ec 5px 5px 0,
+#3a86ff 7.5px 7.5px 0,
+#333 10px 10px 10px;color:#ffcc00;
+background-color:#2E8ECE;
+}
+.introduction {
+    font-size: 24px;
+    text-align: center;
+}
+.Paragraphe{
+    text-align: center;
+}
+
+.picture3{
+
+    display: flex;
+    align-items: flex-end;
+    
+    
+    }
+    
+    .picture3 img {
+       width: 100%;
+       margin-left: 30%;
+         
+        
+        
+    }
+    .muraille{
+        position: relative;
+        left:40px;
+        top:170px;
+        width: 100%;
+        	
+}
+
+.Description1{
+	text-align: justify;
+	margin-top: 30%;
+}
+
+.picture4{
+
+    display: flex;
+    
+    }
+    
+    .picture4 img {
+        width: 400px;
+        height: 100px;
+        
+        
+    }
+    .Incas{
+        position: relative;
+        right:20px;
+        top:50px;
+        width: 100%;
+        	
+}
+.Description2{
+    text-align: center;
+    margin-top:70px;
+}
+
+.picture5{
+
+    display: flex;
+}
+
+.picture0{
+ width:10%;
+}
+  
 
