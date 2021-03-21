@@ -48,12 +48,12 @@ h2{
 
 .Paragraphe {
     margin-top:20%;
-    font-size:;
+    font: size 0px;;
 }
 
 .picture1 {
 
-    display:;
+    display:0px;
 }
 
 @media (max-width: 1640px) {
