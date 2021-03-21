@@ -11,7 +11,7 @@ color:rgb(5, 118, 204);
     
 display:flex;
 justify-content:space-between;
-width:100%;
+width:200px;
 margin-top:20%;
 
 
@@ -32,6 +32,7 @@ margin-top:20%;
 .introduction{
     text-align: center;
     margin: 40%;
+  
     
 }
 
@@ -66,10 +67,17 @@ h2{
 .picture1 {
 
     display:0px;
+   margin-right: 50%;
+   margin-left: 45%;
+   width: ;
+100%
 }
 
 
-	
+	.DeuxiemeTitre{
+
+        margin-top: 20%;
+    }
   
 }
     
@@ -97,9 +105,7 @@ margin-top:40px;
 #Titre-principale {
 	font-family:cursive;
 	text-align: center;
-	margin-top: 15%;
-   font-size: xx-large;
-    
+	margin-top: 15%; 
   color:rgb(45, 185, 204);
   animation: clignote 2s linear infinite;
 }
@@ -116,8 +122,8 @@ h2 {
         text-shadow:#ff006e 2.5px 2.5px 0,
 #8338ec 5px 5px 0,
 #3a86ff 7.5px 7.5px 0,
-#333 10px 10px 10px;color:#ffcc00;
-background-color:#2E8ECE;
+#333 10px 10px 10px;color:#00ccff;
+
 }
 .introduction {
     font-size: 24px;
@@ -136,17 +142,30 @@ background-color:#2E8ECE;
     }
     
     .picture3 img {
-       width: 100%;
-       margin-left: 30%;
+       width: 40%;
+       height: 50%;
+       margin-right: 10%;
+       margin-top: 15%;
          
         
         
     }
     .muraille{
         position: relative;
-        left:40px;
-        top:170px;
-        width: 100%;
+        left:70px;
+        top:30%;
+        width: 50%;
+        margin-left: 40%;
+        margin-top: -13%;
+        
+    }
+
+
+        .mu {
+    margin-left: 80%;
+    margin-top: -13%;
+    height: 10%;
+        }
         	
 }
 
@@ -187,5 +206,28 @@ background-color:#2E8ECE;
 .picture0{
  width:10%;
 }
-  
+.picture10 {
 
+    margin-left: 80%;
+    margin-top: -20%; 
+}
+
+.pyramide {
+
+    margin-top: -10%;
+}
+
+.canyon{
+
+    margin-left: 80%;
+    margin-top: -18%;
+   
+}
+.picture2{
+    margin-left:45%;
+    
+    
+}
+.picture11{
+    margin-top: -18%;
+}
