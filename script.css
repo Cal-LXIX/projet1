@@ -3,6 +3,39 @@ background-color:white;
 color:rgb(5, 118, 204);
 
 }
+
+img {
+    background-color: rgb(189, 189, 192);
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+div {
+    text-align: center  ;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container .text {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 20;
+    top: 70%;
+    color: white;
+    width: 60%;
+    height: 70%;
+}
+
 .container {
     
   
