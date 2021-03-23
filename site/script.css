@@ -31,7 +31,9 @@ margin-top:20%;
  
 .introduction{
     text-align: center;
-    margin: 40%;
+   
+    margin-right: 50%;
+    margin-left: 50%;
   
     
 }
@@ -102,7 +104,7 @@ margin-top:40px;
 
 	
 	
-#Titre-principale {
+#Titre-principale ,.Logo{
 	font-family:cursive;
 	text-align: center;
 	margin-top: 15%; 
@@ -117,7 +119,7 @@ margin-top:40px;
 
 
 
-h2 {
+h2 , {
         font-size: 22px;
         text-shadow:#ff006e 2.5px 2.5px 0,
 #8338ec 5px 5px 0,
@@ -230,4 +232,8 @@ h2 {
 }
 .picture11{
     margin-top: -18%;
+}
+
+.logo{
+   background-size: 50px;
 }
