@@ -1,0 +1,153 @@
+body {
+background-color:white;
+color:rgb(5, 118, 204);
+
+}
+.container {
+    
+  
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        height: 300px;
+        justify-content: center;
+        width:auto;
+       
+     
+}
+
+ 
+.introduction{
+    text-align: center;
+    margin: 40%;
+    
+}
+
+
+
+.MonPremierTitre{
+    text-align: center;
+    margin-top: 20%;
+    font-family:cursive;
+    font-size:10em;
+}
+
+h2{
+    margin-top: 30%;
+    text-align: center;
+    font-size: 20%;
+    margin-bottom:20%;
+    
+    
+}
+.box {
+
+    margin-top:10px;
+}
+
+
+.Paragraphe {
+    margin-top:20%;
+    font: size 0px;;
+}
+
+.picture1 {
+
+    display:0px;
+}
+
+@media (max-width: 1640px) {
+	* {
+		box-sizing: border-box;
+	}
+	
+	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+	
+	/* conserver le ratio des images */
+
+	img {
+		height: auto;
+	}
+	
+	/* gestion des mots longs */
+
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto; /* césure propre */
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word; /* passage à la ligne forcé */
+	}
+	
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+	}
+	
+	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+	.element1,
+	.element2 {
+		float: none;
+		width: auto;
+	}
+	
+	/* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+	/* Un message personnalisé */
+
+	body:before {
+		content: "Version mobile du site";
+		display: block;
+		text-align: center;
+		font-style: italic;
+		color: #777;
+	}
+}
+
+#Titre-principale {
+	font-family:cursive;
+	text-align: center;
+	margin-top: 30%;
+  color:rgb(45, 69, 204);
+  animation: clignote 2s linear infinite;
+}
+@keyframes clignote {  
+  40% { opacity: 0; }
+}
+
+
+
