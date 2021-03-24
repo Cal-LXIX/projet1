@@ -1,0 +1,248 @@
+
+
+body {
+background-color:white;
+color:rgb(5, 118, 204);
+
+}
+
+.container {
+
+    
+display:flex;
+justify-content:space-between;
+width:200px;
+margin-top:20%;
+
+
+
+
+   
+
+    
+    
+}
+  
+  .bleu{background-color: #28B;}
+  .vert{background-color: #2B8;}
+  .jaune{background-color: #BB2;}
+  .rouge{background-color: #E24;}
+
+ 
+.introduction{
+    text-align: center;
+   
+    margin-right: 50%;
+    margin-left: 50%;
+  
+    
+}
+
+
+
+.MonPremierTitre{
+    text-align: center;
+    margin-top: 20%;
+    font-family:cursive;
+    font-size:10em;
+}
+
+h2{
+    margin-top: 30%;
+    text-align: center;
+    font-size: 20%;
+    margin-bottom:20%;
+    
+    
+}
+.box {
+
+    margin-top:10px;
+}
+
+
+.Paragraphe {
+    margin-top:20%;
+    font-size:0px;
+}
+
+.picture1 {
+
+    display:0px;
+   margin-right: 50%;
+   margin-left: 45%;
+   width: ;
+100%
+}
+
+
+	.DeuxiemeTitre{
+
+        margin-top: 20%;
+    }
+  
+}
+    
+.picture5 img {
+	width: 400px;
+	height: 100px;
+	
+	
+}
+.Taj{
+	position: relative;
+	right:20px;
+	top:50px;
+	width: 100%;
+		
+}
+.Description3{
+text-align: center;
+margin-top:40px;
+}
+
+
+	
+	
+#Titre-principale ,.Logo{
+	font-family:cursive;
+	text-align: center;
+	margin-top: 15%; 
+  color:rgb(45, 185, 204);
+  animation: clignote 2s linear infinite;
+}
+@keyframes clignote {  
+  40% { opacity: 0; }
+}
+
+
+
+
+
+h2 , {
+        font-size: 22px;
+        text-shadow:#ff006e 2.5px 2.5px 0,
+#8338ec 5px 5px 0,
+#3a86ff 7.5px 7.5px 0,
+#333 10px 10px 10px;color:#00ccff;
+
+}
+.introduction {
+    font-size: 24px;
+    text-align: center;
+}
+.Paragraphe{
+    text-align: center;
+}
+
+.picture3{
+
+    display: flex;
+    align-items: flex-end;
+    
+    
+    }
+    
+    .picture3 img {
+       width: 40%;
+       height: 50%;
+       margin-right: 10%;
+       margin-top: 15%;
+         
+        
+        
+    }
+    .muraille{
+        position: relative;
+        left:70px;
+        top:30%;
+        width: 50%;
+        margin-left: 40%;
+        margin-top: -13%;
+        
+    }
+
+
+        .mu {
+    margin-left: 80%;
+    margin-top: -13%;
+    height: 10%;
+        }
+        	
+}
+
+.Description1{
+	text-align: justify;
+	margin-top: 30%;
+}
+
+.picture4{
+
+    display: flex;
+    
+    }
+    
+    .picture4 img {
+        width: 400px;
+        height: 100px;
+        
+        
+    }
+    .Incas{
+        position: relative;
+        right:20px;
+        top:50px;
+        width: 100%;
+        	
+}
+.Description2{
+    text-align: center;
+    margin-top:70px;
+}
+
+.picture5{
+
+    display: flex;
+}
+
+.picture0{
+ width:10%;
+}
+.picture10 {
+
+    margin-left: 80%;
+    margin-top: -20%; 
+}
+
+.pyramide {
+
+    margin-top: -10%;
+}
+
+.canyon{
+
+    margin-left: 80%;
+    margin-top: -18%;
+   
+}
+.picture2{
+    margin-left:45%;
+    
+    
+}
+.picture11{
+    margin-top: -18%;
+}
+
+.logo{
+   background-size: 50px;
+}
+.resumer1{
+    border-style:groove;
+    border-radius: 10px /20px;
+    box-shadow: 6px 6px 0px black;
+    margin-left: 30px;
+    display: inline-block;
+   
+}
+
