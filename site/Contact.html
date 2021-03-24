@@ -10,6 +10,28 @@
   <link rel="stylesheet" type="text/css" href="script.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
+  <style>
+
+    header {
+        position: fixed;
+        z-index: -1;
+        overflow: hidden;
+        height: 200px;
+        top: 50px;
+      }
+    
+      header video {
+        margin-top: -400px;
+        margin-left: -200px;
+      }
+    
+      main {
+        margin-top: 350px;
+        background-color: whitesmoke;
+      }
+    
+      </style>
+
 </head>
 
 <body>
@@ -41,6 +63,7 @@
               <li><a class="dropdown-item" href="Mexique.html">Mexique</a></li>
               <li><a class="dropdown-item" href="Las-Vegas.html">Las-Vegas</a></li>
               <li><a class="dropdown-item" href="Inde.html">Inde</a></li>
+              <li><a class="dropdown-item" href="Chine.html">Chine</a></li>
             </ul>
           </li>
         </ul>
@@ -48,30 +71,18 @@
     </div>
   </nav>
 
-  <main>
-    <header><div id="after_submit"></div>
-      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-        <div class="row">
-          <label class="required" for="name">Your name:</label><br />
-          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-          <span id="name_validation" class="error_message"></span>
-        </div>
-        <div class="row">
-          <label class="required" for="email">Your email:</label><br />
-          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-          <span id="email_validation" class="error_message"></span>
-        </div>
-        <div class="row">
-          <label class="required" for="message">Your message:</label><br />
-          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-          <span id="message_validation" class="error_message"></span>
-        </div>
-          
-          <input id="submit_button" type="submit" value="Send email" />
-      </form></header>
-  </main>
+
+  <header>
+    <video src="https://pixabay.com/fr/videos/download/video-39967_large.mp4?attachment" muted autoplay loop></video>
+  </header>
 
 
+ 
+ 
+<main>
+
+ <h1 style="color: aqua;">Adressez nous vos Commentaire </h1>
+  <br><br><br><br>
 <div class="formulaire">
   <div id="after_submit"></div>
   <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
@@ -95,12 +106,17 @@
   </form>
 
 </div>
-
+</main>
 
              
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
  
 </body>
+<br><br><br><br><br><br><br>
+<footer>©copyright:Said.Jean-Guy.Fathia
+  Registered® et Trademark™
+</footer>
+</html>
 
 </html>
