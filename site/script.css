@@ -108,7 +108,10 @@ margin-top:40px;
 
 
 h2  {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 37ee0c8780de1e3a763dc41e73cfc873948daec2
         font-size: 22px;
         text-shadow:#ff006e 2.5px 2.5px 0,
         #8338ec 5px 5px 0,
@@ -217,10 +220,14 @@ h2  {
 
     margin-top: -10%;
 }
+<<<<<<< HEAD
 
 
 
   
+=======
+ 
+>>>>>>> 37ee0c8780de1e3a763dc41e73cfc873948daec2
 header {
     position: fixed;
     z-index: -1;
@@ -241,9 +248,12 @@ main {
     background-color: whitesmoke;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 37ee0c8780de1e3a763dc41e73cfc873948daec2
 
 .logo{
    background-size: 50px;
