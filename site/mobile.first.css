@@ -1,4 +1,12 @@
-@media (max-width: 760px) {
+@media (max-width: 767px) {
+
+
+    .container {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+
 
   
-  
+}

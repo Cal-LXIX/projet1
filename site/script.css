@@ -86,14 +86,11 @@ margin-top:10px;
 }
 
 
-.Description3{
-text-align: center;
-margin-top:40px;
-}
 
 
 	
 #Titre-principale ,.Logo{
+   
 	font-family:cursive;
 	text-align: center;
 	margin-top: 15%; 
@@ -108,10 +105,6 @@ margin-top:40px;
 
 
 h2  {
-<<<<<<< HEAD
-
-=======
->>>>>>> 37ee0c8780de1e3a763dc41e73cfc873948daec2
         font-size: 22px;
         text-shadow:#ff006e 2.5px 2.5px 0,
         #8338ec 5px 5px 0,
@@ -134,20 +127,6 @@ h2  {
 }
 
 
-.picture3{
-
-    display: flex;
-    align-items: flex-end;
-    
-    }
-    
-    .picture3 img {
-       width: 40%;
-       height: 50%;
-       margin-right: 10%;
-       margin-top: 15%;
-         
-        }
 
 
     .muraille  {
@@ -162,28 +141,16 @@ h2  {
     }
 
 
- .mu {
-      margin-left: 80%;
-      margin-top: -13%;
-       height: 10%; 
-    }
+ 
 
 .Description1{
 	text-align: justify;
 	margin-top: 30%;
 }
 
-.picture4{
 
-    display: flex;
     
-    }
-    
-    .picture4 img {
-        width: 400px;
-        height: 100px;
-           
-    }
+   
 
 
     .Incas{
@@ -197,7 +164,9 @@ h2  {
 
 .Description2{
     text-align: center;
-    margin-top:70px;
+    
+   
+    
 }
 
 .picture5{
@@ -220,14 +189,7 @@ h2  {
 
     margin-top: -10%;
 }
-<<<<<<< HEAD
-
-
-
-  
-=======
  
->>>>>>> 37ee0c8780de1e3a763dc41e73cfc873948daec2
 header {
     position: fixed;
     z-index: -1;
@@ -248,75 +210,6 @@ main {
     background-color: whitesmoke;
 }
 
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 37ee0c8780de1e3a763dc41e73cfc873948daec2
-
-.logo{
-   background-size: 50px;
-}
-
-
-.resumer1 {
-    border-style:groove;
-    border-radius: 10px /20px;
-    box-shadow: 6px 6px 0px black;
-    margin-left: 30px;
-    display: inline-block;
-    width: min-content;
-    height: max-content;
-    text-align: center;
-   
-}
-
-
- .resumer2 {
-    border-style:groove;
-    border-radius: 10px /20px;
-    box-shadow: 6px 6px 0px black;
-    margin-left: 30px;
-    display: inline-block;
-    width: min-content;
-    height: max-content;
-    text-align: center;
-   
-}
-
-
-.resumer3 {
-    border-style:groove;
-    border-radius: 10px /20px;
-    box-shadow: 6px 6px 0px black;
-    margin-left: 30px;
-    display: inline-block;
-    width: 20%;
-    height: max-content;
-    text-align: center;
-   
-}
-
-.resumer4 {
-    border-style:groove;
-    border-radius: 10px /20px;
-    box-shadow: 6px 6px 0px black;
-    margin-left: 30px;
-    display: inline-block;
-    width: min-content;
-    text-align: center;
-   
-   
-}
-
-.resumer5 {
-    border-style:groove;
-    border-radius: 10px /20px;
-    box-shadow: 6px 6px 0px black;
-    margin-left: 40%;
-    margin-top: 10%;
-    display: inline-block;
-    width: min-content;
-    text-align: center; 
-}
